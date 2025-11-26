@@ -1,0 +1,2 @@
+# TIC-TAC-TOE
+#include &lt;stdio.h>  int main() {     int move ;     char p1='x',p2='o', sp=' ';     scanf("%d",&amp;move);     for(int i=1;i&lt;=10;i++)      printf("%c|%c|%c\n",p1,sp,p2);     printf("-+-+-+\n");     printf("%c|%c|%c\n",sp,p1,sp);     printf("-+-+-\n");     printf("%c|%c|%c" , p2,p2,p2);           return 0; }
